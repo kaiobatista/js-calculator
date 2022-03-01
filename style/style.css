@@ -18,7 +18,9 @@ body {
 }
 
 h1 {
+    display: block;
     text-align: center;
+    margin: auto;
     font-family: var(--font-2);
     padding: 40px;
 }
