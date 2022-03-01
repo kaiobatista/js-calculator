@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" async></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div id="container">
+        <input type="text" id="display">
+        <table>
+            <tr>
+                <td class="numbers" onclick="writeIn(this)">7</td>
+                <td class="numbers" onclick="writeIn(this)">8</td>
+                <td class="numbers" onclick="writeIn(this)">9</td>
+                <td class="operations" onclick="writeIn(this)">x</td>
+                <td class="operations" onclick="writeIn(this)">/</td>
+            </tr>
+            <tr>
+                <td class="numbers" onclick="writeIn(this)">4</td>
+                <td class="numbers" onclick="writeIn(this)">5</td>
+                <td class="numbers" onclick="writeIn(this)">6</td>
+                <td class="operations" onclick="writeIn(this)">-</td>
+                <td rowspan="2" class="operations" onclick="writeIn(this)">^</td>
+            </tr>
+            <tr>
+                <td class="numbers" onclick="writeIn(this)">1</td>
+                <td class="numbers" onclick="writeIn(this)">2</td>
+                <td class="numbers" onclick="writeIn(this)">3</td>
+                <td class="operations" onclick="writeIn(this)">+</td>
+            </tr>
+            <tr>
+                <td class="cancel" onclick="cancel()">C</td>
+                <td class="numbers" onclick="writeIn(this)">0</td>
+                <td>.</td>
+                <td colspan="2" class="equal" onclick="calculate()">=</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-1: 'ZCOOL QingKe HuangYou', cursive;
+    --font-2: 'Cinzel', serif;
+}
+
+body {
+    font-family: var(--font-1);
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--font-2);
+    padding: 40px;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#display {
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    font-size: 1.2em;
+}
+
+#container table {
+    margin: 0 auto;
+    width: 300px;
+    border-spacing: 5px;
+}
+
+#container table td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+    font-size: 1.2em;
+}
+
+.operations {
+    font-weight: bolder;
+    background-color: orange;
+}
+
+.equal {
+    font-weight: bolder;
+    background-color: red;
+}
+
+.cancel {
+    font-weight: bolder;
+    background-color: yellow;
+}
+
+.numbers:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.operations:hover {
+    background-color: rgb(221, 144, 0);
+}
+
+.equal:hover {
+    background-color: rgb(212, 4, 4);
+}
+
+.cancel:hover {
+    background-color: rgb(224, 224, 0);
+}
